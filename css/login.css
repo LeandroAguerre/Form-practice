@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+}
+
+.google-btn {
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.google-btn:hover {
+    opacity: 0.8;
+    transition: 300ms;
+}
+.google-btn picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.google-btn picture img {
+    width: 50%;
+}
+
+.google-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    
+}
+.twitter-btn {
+    color: #ccc;
+    background-color: #eee;
+    border: none;
+    width: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.twitter-btn:hover {
+    background-color: #ddd;
+}
+.twitter-btn picture img {
+    width: 45%;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+
+}
+.separator span {
+    color: #8b8b8b;
+}
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.section-inputs input {
+    width: 82%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 35px;
+    width: 100%;
+}
+
+label {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span {
+    font-weight: 700;
+}
+label input {
+    /* width: 80%; */
+    background-color: #f3f3f4;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s;
+}
+label input:hover {
+    background-color: white;
+    border: solid 1px #f3f3f4;;
+    outline: solid 4px rgba(241, 140, 140, 0.205);
+    transition: 200ms;
+}
+label input:focus {
+    background-color: white;
+    border: solid 1px #f3f3f4;;
+    outline: solid 4px rgba(241, 140, 140, 0.205);
+    transition: 200ms;
+    border: solid 1px  rgba(241, 140, 140, 0.712);
+}
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+.checkbox-label span {
+    font-weight: 400;
+}
+.submit-btn {
+    background-color: #EA4C89;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 50%;
+}
+.submit-btn:hover {
+    opacity: 0.75;
+}
+
